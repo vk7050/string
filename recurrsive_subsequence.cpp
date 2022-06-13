@@ -18,7 +18,7 @@ int main()
   string str,str1;
   cin>>str;
   cin>>str1;
-  bool a=Subsequence(str,str1,str.lenght(),str1.length());
+  bool a=Subsequence(str,str1,str.length(),str1.length());
   cout<<a<<endl;
   return 0;
 }
