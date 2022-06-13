@@ -11,7 +11,7 @@ void Frequency(string str)
   for(int a=0;a<26;a++)
   {
     if(str1[a]>0)
-      cout<<(char)a<<" "<<str1[a]<<endl;
+      cout<<(char)(a+'a')<<" "<<str1[a]<<endl;
   }
 }
 
