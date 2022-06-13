@@ -1,2 +1,10 @@
 #include<bits/stdc++.h>
-using 
+using namespace std;
+int main()
+{
+  string str;
+  cin>>str;
+  sort(str);
+  cout<<str<<endl;
+  return 0;
+}
